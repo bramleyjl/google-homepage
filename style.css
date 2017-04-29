@@ -1,0 +1,111 @@
+body {
+	font-family: arial, sans-serif;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	text-align: center;
+	position: absolute;
+	top: 15px;
+	right: 0px;
+	min-width: 220px;
+	padding-left: 30px;
+	padding-right: 30px;
+	min-width: 255px;
+	font-size: 13px;
+}
+
+#header li {
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+#header_signin {
+	color: white;
+	background-color: #4285f4;
+	border: 1px, solid, #4285f4;
+	line-height: 28px;
+	padding: 0 12px;
+	border-radius: 2px;
+	font-weight: bold;
+
+}
+
+#picture {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	clear:both;
+	text-align: center;
+	padding-top: 109px;
+	margin-top: 89px;
+}
+
+#search {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	text-align: center;
+}
+
+#searchbar input {
+	overflow: hidden;
+	height: 35px;
+	border: 1px solid #dcdcdc;
+	box-shadow: 1px 1px 0px #d2d2d2;
+	margin: 15px auto 0px auto;
+	width: 550px;
+}
+
+input[type=submit] {
+	display: block;
+    background-color: #f2f2f2;
+    border: none;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    height: 36px;
+    line-height: 27px;
+    margin: 32px 2px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    display: inline-block;
+}
+
+#footer {
+	width: 100%;
+	height: 35px;
+	position: absolute;
+	bottom:0;
+	display: inline;
+	background-color: #f2f2f2;
+	color: #666;
+
+}
+
+#footer li {
+	margin-top: 10px;
+	display: inline-block;
+	padding-left: 27px;
+	padding-right: 27px;
+	align-items: center;
+}
+
+#left_foot {
+	float: left;
+}
+
+#right_foot {
+	float: right;
+}
